@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
   <head>
-    <meta http-equiv="Content-Type" content="text/html;">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/bootstrap.min.css"> 
-    <link rel="stylesheet" href="css/style.css"> 
-    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400" rel="stylesheet">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Braga Ramos Portfolio</title>
   </head>
   <body>
     <div id="container" class="container">
       <header class="row">
-        <picture class="col-5"><img class="img-fluid logo" src="./img/logo.svg"></picture >
+        <picture class="col-5"><img class="img-fluid logo" src="./img/logo.svg" alt="logo with name Braga Ramos"></picture >
         <div class="col-7 text-right text-right text-uppercase">
           <h1>Yanna Braga</h1>
           <h3>Front-end Ninja</h3>
@@ -23,10 +24,10 @@
         <source srcset="./img/front_end_medium.jpg" media="(min-width: 768px) and (max-width:991px)">
         <source srcset="./img/front_end_large.jpg" media="(min-width: 992px)">
         <source srcset="./img/front_end_medium.jpg" media="(min-width: 576px) and (orientation:landscape)">
-        <img src="./img/front_end_small.jpg" class="img-fluid">
+        <img src="./img/front_end_small.jpg" class="img-fluid" alt="devices in differents sizes">
       </picture>
       <section>
-        <h2>Featured Work</h2>
+        <h2>Trabalhos em Destaque</h2>
         <div class="row description">
           <article class="col-md-6">
             <picture>
@@ -71,16 +72,16 @@
     </div>  
 
     <!-- Modal -->
-    <div class="modal fade" id="mockup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="mockup" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <header class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Mockup to Article</h4>
+                    <h4 class="modal-title">Mockup to Article</h4>
                 </header >
                 <div class="modal-body">
                   <picture>
                     <source srcset="./img/mockup_small.jpg" media="(max-width: 361px)">
-                    <img src="./img/mockup_large.jpg" class="img-fluid"alt="mockup webpage">
+                    <img src="./img/mockup_large.jpg" class="img-fluid" alt="mockup webpage">
                   </picture>
                   <p class="modal-text">Meu primeiro projeto entregue no NanoDegree. Aprendi muito sobre HTML.</p>
                 </div>
@@ -90,16 +91,16 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="cards" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="cards" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <header class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Animal Trading Cards</h4>
+                    <h4 class="modal-title">Animal Trading Cards</h4>
                 </header>
                 <div class="modal-body">
                   <picture>
                     <source srcset="./img/card_small.jpg" media="(max-width: 361px)">
-                    <img src="./img/card_large.jpg" class="img-fluid"alt="guinea pig">
+                    <img src="./img/card_large.jpg" class="img-fluid" alt="guinea pig">
                   </picture>
                   <p class="modal-text">Meu segundo projeto entregue no NanoDegree. Aprendi muito sobre CSS.</p>
                 </div>
@@ -109,16 +110,16 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="peach" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="peach" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <header class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Macking Peach Ice Cream</h4>
+                    <h4 class="modal-title">Macking Peach Ice Cream</h4>
                 </header>
                 <div class="modal-body">
                   <picture>
                     <source srcset="./img/peach_small.jpg" media="(max-width: 361px)">
-                    <img src="./img/peach_large.jpg" class="img-fluid"alt="recept from peach ice cream">
+                    <img src="./img/peach_large.jpg" class="img-fluid" alt="recept from peach ice cream">
                   </picture>
                   <p class="modal-text">Exercício sobre dimensionamento.</p>                    
                 </div>
@@ -128,16 +129,16 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="portfolio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="portfolio" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <header class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Portfolio Site</h4>
+                    <h4 class="modal-title">Portfolio Site</h4>
                 </header>
                 <div class="modal-body">
                   <picture>
                     <source srcset="./img/portfolio_small.jpg" media="(max-width: 361px)">
-                    <img src="./img/portfolio_large.jpg" class="img-fluid"alt="devices in differents sizes">
+                    <img src="./img/portfolio_large.jpg" class="img-fluid" alt="devices in differents sizes">
                   </picture>
                   <p class="modal-text">Projeto final da primeira parte do Nanodegee Fundamentos Web Front-End </p>
                 </div>

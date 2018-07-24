@@ -1,47 +1,38 @@
-body{
+body {
 	color: #2d3c49;
+	font-family: 'Roboto', sans-serif;
 }
-h2{
+
+h2 {
 	color:#7d97ad; 
 }
-h1,h3,h2{
-	margin-top: 8px;
+
+h1,
+h3,
+h2 {
+	margin-top: 16px;
+	font-weight: 500;
 }
 
-a{
+a {
 	color: #2d3c49;
 }
 
-.logo{
-	display: inline-block;
-    height: 100%;
-    vertical-align: middle;
-}
-
-.description{
-	text-align: center;
-}
-
-.modal-text{
-	margin-top: 16px;
-}
-
-hr{
+hr {
 	background-color: #7d97ad;
 	border-width: 5px;
 }
 
-/* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) { 
- }
-
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {  }
-
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) { 
+.logo {
+	display: inline-block;
+  height: 100%;
+  vertical-align: middle;
 }
 
-/* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
- }
+.description {
+	text-align: center;
+}
+
+.modal-text {
+	margin-top: 16px;
+}
