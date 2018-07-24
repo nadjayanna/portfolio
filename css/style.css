@@ -1,38 +1,38 @@
 body {
-	color: #2d3c49;
-	font-family: 'Roboto', sans-serif;
+  color: #2d3c49;
+  font-family: 'Roboto', sans-serif;
 }
 
 h2 {
-	color:#7d97ad; 
+  color:#7d97ad;
 }
 
 h1,
 h3,
 h2 {
-	margin-top: 16px;
-	font-weight: 500;
+  margin-top: 16px;
+  font-weight: 500;
 }
 
 a {
-	color: #2d3c49;
+  color: #2d3c49;
 }
 
 hr {
-	background-color: #7d97ad;
-	border-width: 5px;
+  background-color: #7d97ad;
+  border-width: 5px;
 }
 
 .logo {
-	display: inline-block;
+  display: inline-block;
   height: 100%;
   vertical-align: middle;
 }
 
 .description {
-	text-align: center;
+  text-align: center;
 }
 
 .modal-text {
-	margin-top: 16px;
+  margin-top: 16px;
 }
