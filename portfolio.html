@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="css/style.css"> 
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div id="container" class="container">
+      <header class="row">
+        <picture class="col-5"><img class="img-fluid logo" src="./img/logo.svg"></picture >
+        <div class="col-7 text-right text-right text-uppercase">
+          <h1>Yanna Braga</h1>
+          <h3>Front-end Ninja</h3>
+        </div>
+      </header>
+      <hr>
+      <picture>
+        <source srcset="./img/front_end_medium.jpg" media="(min-width: 768px) and (max-width:991px)">
+        <source srcset="./img/front_end_large.jpg" media="(min-width: 992px)">
+        <source srcset="./img/front_end_medium.jpg" media="(min-width: 576px) and (orientation:landscape)">
+        <img src="./img/front_end_small.jpg" class="img-fluid">
+      </picture>
+      <section>
+        <h2>Featured Work</h2>
+        <div class="row description">
+          <article class="col-md-6">
+            <picture>
+              <source srcset="./img/mockup_large.jpg" media="(min-width: 992px)">
+              <source srcset="./img/mockup_large.jpg" media="(min-width: 576px) and (orientation:landscape)">
+              <img src="./img/mockup_small.jpg" class="img-fluid" data-toggle="modal" data-target="#mockup" alt="mockup webpage">
+            </picture>
+            <h3 class="text-uppercase">Mockup to Article</h3>
+            <p><a href="http://github.com/nadjayanna/mockup-to-article">github.com/nadjayanna/mockup-to-article</a></p>
+          </article>
+          <article class="col-md-6">
+            <picture>
+              <source srcset="./img/card_large.jpg" media="(min-width: 992px)">
+                <source srcset="./img/card_large.jpg" media="(min-width: 576px) and (orientation:landscape)">
+              <img src="./img/card_small.jpg" class="img-fluid" data-toggle="modal" data-target="#cards" alt="guinea pig">
+            </picture>
+            <h3 class="text-uppercase">Trading Cards</h3>
+            <p><a href="https://github.com/nadjayanna/trading-cards">github.com/nadjayanna/trading-cards</a></p>
+          </article>
+        </div>
+        <div class="row description">
+          <article class="col-md-6">
+            <picture>
+              <source srcset="./img/peach_large.jpg" media="(min-width: 992px)">
+              <source srcset="./img/peach_large.jpg" media="(min-width: 576px) and (orientation:landscape)">
+              <img src="./img/peach_small.jpg" class="img-fluid" data-toggle="modal" data-target="#peach" alt="recept from peach ice cream">
+            </picture>
+            <h3 class="text-uppercase">Peach Ice Cream</h3>
+            <p><a href="https://github.com/nadjayanna/peach-ice-cream">github.com/nadjayanna/peach-ice-cream</a></p>
+          </article>
+          <article class="col-md-6">
+            <picture>
+              <source srcset="./img/portfolio_large.jpg" media="(min-width: 992px)">
+              <source srcset="./img/portfolio_large.jpg" media="(min-width: 576px) and (orientation:landscape)">
+              <img src="./img/portfolio_small.jpg" class="img-fluid" data-toggle="modal" data-target="#portfolio" alt="devices in differents sizes">
+            </picture>
+            <h3 class="text-uppercase">Portfolio Site</h3>
+            <p><a href="http://github.com/">Link to project</a></p>
+          </article>
+        </div>
+      </section>
+    </div>  
+
+    <!-- Modal -->
+    <div class="modal fade" id="mockup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Mockup to Article</h4>
+                </header >
+                <div class="modal-body">
+                  <picture>
+                    <source srcset="./img/mockup_small.jpg" media="(max-width: 361px)">
+                    <img src="./img/mockup_large.jpg" class="img-fluid"alt="mockup webpage">
+                  </picture>
+                  <p class="modal-text">Meu primeiro projeto entregue no NanoDegree. Aprendi muito sobre HTML.</p>
+                </div>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="cards" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Animal Trading Cards</h4>
+                </header>
+                <div class="modal-body">
+                  <picture>
+                    <source srcset="./img/card_small.jpg" media="(max-width: 361px)">
+                    <img src="./img/card_large.jpg" class="img-fluid"alt="guinea pig">
+                  </picture>
+                  <p class="modal-text">Meu segundo projeto entregue no NanoDegree. Aprendi muito sobre CSS.</p>
+                </div>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="peach" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Macking Peach Ice Cream</h4>
+                </header>
+                <div class="modal-body">
+                  <picture>
+                    <source srcset="./img/peach_small.jpg" media="(max-width: 361px)">
+                    <img src="./img/peach_large.jpg" class="img-fluid"alt="recept from peach ice cream">
+                  </picture>
+                  <p class="modal-text">Exercício sobre dimensionamento.</p>                    
+                </div>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="portfolio" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <header class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Portfolio Site</h4>
+                </header>
+                <div class="modal-body">
+                  <picture>
+                    <source srcset="./img/portfolio_small.jpg" media="(max-width: 361px)">
+                    <img src="./img/portfolio_large.jpg" class="img-fluid"alt="devices in differents sizes">
+                  </picture>
+                  <p class="modal-text">Projeto final da primeira parte do Nanodegee Fundamentos Web Front-End </p>
+                </div>
+                <footer class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                </footer>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
